@@ -1,0 +1,70 @@
+/* ListPage.css */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  /* Space between list items */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+li a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  /* Space between title and buttons */
+}
+
+button {
+  margin-right: 10px;
+  /* Space between buttons */
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker shade for hover effect */
+}
+
+/* Style for buttons container */
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  /* Align buttons to the left */
+  gap: 10px;
+  /* Space between buttons */
+}
+
+/* Adjust for edit mode - to keep buttons inside the same layout */
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Add padding around the form */
+
+form {
+  margin-bottom: 30px;
+}
